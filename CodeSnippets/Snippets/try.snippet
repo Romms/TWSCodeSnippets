@@ -19,15 +19,16 @@
 					<Function>SimpleTypeName(global::System.Exception)</Function>
 				</Literal>
 			</Declarations>
-			<Code Language="Apex"><![CDATA[try 
-	{	        
-		$selected$
-	}
-	catch ($expression$ e)
-	{
-		$end$
-		throw e;
-	}]]>
+			<Code Language="Apex">
+				<![CDATA[try 
+				{	        
+					$selected$
+				}
+				catch ($expression$ e)
+				{
+					$end$
+					throw e;
+				}]]>
 			</Code>
 		</Snippet>
 	</CodeSnippet>
