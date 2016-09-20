@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>classHeader</Title>
+			<Shortcut>class</Shortcut>
+			<Description>Code snippet for class Header</Description>
+			<Author>The Welkin Suite</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Your Name</ToolTip>
+					<Default>YourName</Default>
+				</Literal>
+				<Literal>
+					<ID>email</ID>
+					<ToolTip>Your email address</ToolTip>
+					<Default>email</Default>
+				</Literal>
+				<Literal>
+					<ID>version</ID>
+					<ToolTip>version</ToolTip>
+					<Default>0.0.0</Default>
+				</Literal>
+				<Literal>
+					<ID>description</ID>
+					<ToolTip>Description of the class</ToolTip>
+					<Default>DescriptionOfTheClass</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="Apex"><![CDATA[/**
+ * @author $name$ ($email$)
+ * @version $version$
+ * @description $description$
+ *
+ *
+ **/ $end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

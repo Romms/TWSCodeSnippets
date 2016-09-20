@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SnippetCollection>
+	<Language Lang="ApexSnippets" Guid="{b5a65fc2-82a8-4862-b279-23910c2187b0}">
+		<SnippetDir>
+			<OnOff>On</OnOff>
+			<Installed>true</Installed>
+			<Locale>1033</Locale>
+			<DirPath>.\Snippets\%LCID%\</DirPath>
+			<LocalizedName>Apex Snippets</LocalizedName>
+		</SnippetDir>
+	</Language>
+</SnippetCollection>

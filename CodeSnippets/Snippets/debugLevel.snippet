@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>debugLevel</Title>
+			<Shortcut>debugLevel</Shortcut>
+			<Description>Code snippet for system debug method</Description>
+			<Author>Roman Shevchuk</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>message</ID>
+					<ToolTip>The message or object to write in string format to the execution debug log</ToolTip>
+					<Default>'DEBUG'</Default>
+				</Literal>
+				<Literal>
+					<ID>logginglevel</ID>
+					<ToolTip>Use the loggingLevel enum to specify the logging level for the debug method</ToolTip>
+					<Default>DEBUG</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="Apex"><![CDATA[System.debug(Logginglevel.$logginglevel$, $message$);]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

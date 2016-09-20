@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>assertNotEquals</Title>
+			<Shortcut>method</Shortcut>
+			<Description>Code snippet for assert Not Equals</Description>
+			<Author>The Welkin Suite</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>expected</ID>
+					<ToolTip>expected</ToolTip>
+					<Default>expected</Default>
+				</Literal>
+				<Literal>
+					<ID>actual</ID>
+					<ToolTip>actual</ToolTip>
+					<Default>actual</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="Apex"><![CDATA[System.assertNotEquals($expected$, $actual$); $end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>

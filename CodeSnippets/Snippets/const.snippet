@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets  xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>const</Title>
+			<Shortcut>class</Shortcut>
+			<Description>Code snippet for constant</Description>
+			<Author>The Welkin Suite</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>type</ID>
+					<ToolTip>Const type</ToolTip>
+					<Default>String</Default>
+				</Literal>
+				<Literal>
+					<ID>name</ID>
+					<ToolTip>Const Name</ToolTip>
+					<Default>NAME</Default>
+				</Literal>
+				<Literal>
+					<ID>value</ID>
+					<ToolTip>Value</ToolTip>
+					<Default>VALUE</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="Apex"><![CDATA[public static final $type$ $name$ = $value$; $end$]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
